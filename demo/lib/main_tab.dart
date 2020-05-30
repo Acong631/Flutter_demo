@@ -43,7 +43,7 @@ class _MainTabState extends State<MainTab> {
             });
           }
         },
-        elevation: 20,
+        elevation: 5,
         type: BottomNavigationBarType.fixed,
         currentIndex: currentIndex,
         items: [

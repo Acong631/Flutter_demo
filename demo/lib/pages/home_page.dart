@@ -185,6 +185,7 @@ class _HomePageState extends State<HomePage> {
       ),
       child: Container(
         color: Color.fromARGB(255, 240, 240, 240),
+        padding: EdgeInsets.only(bottom: 10),
         child: Stack(
           children: <Widget>[
             SmartRefresher(

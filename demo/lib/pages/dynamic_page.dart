@@ -24,6 +24,7 @@ class _DynamicPageState extends State<DynamicPage> with SingleTickerProviderStat
   _search(Function onTap){
     return Positioned(
       left: 10,
+      top: 10,
       child: GestureDetector(
         onTap: onTap,
         child: Icon(Icons.search),
@@ -40,7 +41,7 @@ class _DynamicPageState extends State<DynamicPage> with SingleTickerProviderStat
           children: <Widget>[
             Container(
               color: ColorUtils.pageColor,
-              child: TheamTabView(tabCtr: tabCtr, titles: ['全部','我的'], pages: [DynamicView(),DynamicView()],tabWidth: 150,),
+              child: TheamTabView(tabCtr: tabCtr, titles: ['全部','我的'], pages: [DynamicView(),DynamicView()],tabWidth: 150,tabHeight: 40),
             ),
             _search((){
 
@@ -186,8 +187,6 @@ class _DynamicViewState extends State<DynamicView> {
               ), 
               onTap: null
             )
-            // IconButton(icon: Icon(Icons.favorite,size: 14,), onPressed: null),
-            // IconButton(icon: Icon(Icons.favorite,size: 14,), onPressed: null)
           ],
         ),
       );
