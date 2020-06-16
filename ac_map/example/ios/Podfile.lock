@@ -1,0 +1,22 @@
+PODS:
+  - acmap (0.0.1):
+    - Flutter
+  - Flutter (1.0.0)
+
+DEPENDENCIES:
+  - acmap (from `.symlinks/plugins/acmap/ios`)
+  - Flutter (from `Flutter`)
+
+EXTERNAL SOURCES:
+  acmap:
+    :path: ".symlinks/plugins/acmap/ios"
+  Flutter:
+    :path: Flutter
+
+SPEC CHECKSUMS:
+  acmap: 9fe9e9715ca7bbe8e60adab35ce55e427f1f4a9c
+  Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
+
+PODFILE CHECKSUM: f32fb4e7c14f8b3ca19a369d7be425dd9241af27
+
+COCOAPODS: 1.9.1
